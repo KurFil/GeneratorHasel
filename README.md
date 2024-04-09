@@ -15,5 +15,8 @@
 - The generated passwords will be displayed in the console.
 - If a filename is provided, the passwords will also be saved to the specified file.
 
+## Download
+- You can download Password Generator [here]()
+
 ## Author
 - Written by KurFil
