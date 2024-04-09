@@ -1,16 +1,16 @@
 import random
 
-losoweZnaki = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+randomCharacters = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
 
-licznik = -1
+counter = -1
 
-for i in losoweZnaki:
-    licznik += 1
+for i in randomCharacters:
+    counter += 1
 
-dlugoscHasla = int(input("Podaj dlugosc hasla: "))
-haslo = ""
+passwordLength = int(input("Enter password length: "))
+password = ""
 
-for i in range(dlugoscHasla):
-    haslo += losoweZnaki[random.randint(0, licznik)]
+for i in range(passwordLength):
+    password += randomCharacters[random.randint(0, counter)]
 
-print(haslo)
+print("Generated password:", password)
